@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <!-- font awesome icons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    
+    <!-- custom style.css file -->
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+<body>
+    
+    <!-- Header -->
+       <header id="header" class="shadow bg-light">
+           <nav class="container navbar">
+               <a href="index.html" class="nav-brand text-dark">
+                    BLOGYY!!
+                </a>
+
+                <!-- toggle button -->
+                <button class="toggle-button">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
+
+                <!-- collapse on toggle button click -->
+                <div class="collapse">
+                    <ul class="navbar-nav">
+                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="Blog1.html" class="nav-link">Blog</a>
+                        <a href="aboutUs.html" class="nav-link">About</a>
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </ul>
+                </div>
+
+                  <!-- collapse on toggle button click -->
+                  <div class="collapse">
+                      <ul class="navbar-nav">
+                            <div class="search-box">
+                                <a href="#" class="nav-link"><i class="fas fa-search"></i></a>
+                            </div>
+                            <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
+                    
+                      </ul>
+                  </div>
+           </nav>
+       </header>
+    <!-- .Header -->
+
+    <!-- Main Site -->
+       <main id="site-main">
+
+            <!-- Post Content -->
+                <section class="container">
+                    <article id="post">
+                        <!-- article heading -->
+                        <div class="headings text-center">
+                            <h2 class="text-title text-dark display-1">Nature!!</h2>
+                            <div class="title">
+                                <h2 class="text-title text-dark display-1">The Earth has music for those who listen.</h2>
+                            </div>
+                        </div>
+
+                     
+                      
+                        <video  class="center" width="100" height="300" autoplay muted>
+                            <source src="img/V1.mp4"type="video/mp4">
+                           
+                          </video> 
+                         
+                        <br>
+                        <br>
+
+                        <div class="meta">
+                            <a href="#" class="link display-2 text-secondary px-1">
+                                <i class="fas fa-user text-primary"></i>Sam
+                            </a>
+                            <a href="#" class="link display-2 text-secondary px-1">
+                                <i class="fas fa-clock text-primary"></i> Wed 02, 2019
+                            </a>
+                        </div>
+                        
+                        <div class="rate">
+                            <input type="radio" id="star5" name="rate" value="5" />
+                            <label for="star5" title="text">5 stars</label>
+                            <input type="radio" id="star4" name="rate" value="4" />
+                            <label for="star4" title="text">4 stars</label>
+                            <input type="radio" id="star3" name="rate" value="3" />
+                            <label for="star3" title="text">3 stars</label>
+                            <input type="radio" id="star2" name="rate" value="2" />
+                            <label for="star2" title="text">2 stars</label>
+                            <input type="radio" id="star1" name="rate" value="1" />
+                            <label for="star1" title="text">1 star</label>
+                          </div>
+
+                        
+                        <!-- content -->
+                        <div class="content text-dark display-2 secondary-title mt-3">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque 
+                                blanditiis adipisci aliquam dolore consequuntur fuga sed consectetur 
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque 
+                                blanditiis adipisci aliquam dolore consequuntur fuga sed consectetur 
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque 
+                                blanditiis adipisci aliquam dolore consequuntur fuga sed consectetur 
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque 
+                                blanditiis adipisci aliquam dolore consequuntur fuga sed consectetur 
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque 
+                                blanditiis adipisci aliquam dolore consequuntur fuga sed consectetur 
+                            </p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque 
+                                blanditiis adipisci aliquam dolore consequuntur fuga sed consectetur 
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque 
+                                blanditiis adipisci aliquam dolore consequuntur fuga sed consectetur 
+                            </p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque 
+                                blanditiis adipisci aliquam dolore consequuntur fuga sed consectetur 
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque 
+                                blanditiis adipisci aliquam dolore consequuntur fuga sed consectetur 
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque 
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum itaque 
+                                blanditiis adipisci aliquam dolore consequuntur fuga sed consectetur 
+                            </p>
+                        </div>
+                    </article>
+
+                    <center>
+                    <div>
+                        <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                    </div>
+                </center>
+
+
+                    
+                                     <!-- comment reply -->
+                                     <div class="reply py-2">
+                                        <div class="d-flex">
+                                            <div class="avatar px-2">
+                                                <img src="img/face 3.jpeg" class="rounded" alt="">
+                                            </div>
+                                            <div class="comment-content">
+                                                <h5 class="display-2 m-0">MARIA</h5>
+                                            
+                                                <p class="title-secondary text-dark">
+                                                    <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt<br> ut labore aliqua. 
+                                                </p>
+                                            </div>
+                                        </div>
+    </div>
+                                </div>
+                                <div class="comment-item py-2">
+                                    <div class="d-flex">
+                                        <div class="avatar px-2">
+                                            <img src="img/face 1.jpeg" class="rounded" alt="">
+                                        </div>
+                                        <div class="comment-content">
+                                            <h5 class="display-2 m-0">JOHE</h5>
+                                            
+                                            <p class="title-secondary text-dark">
+                                                <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt<br> ut labore aliqua. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <h3 class="text-center display-1 secondary-title py-2">Leave Comment</h3>
+    
+                            <div class="comment-form">
+                                <div class="d-flex justify-content-between flex-wrap">
+                                    <input type="text" class="form-control " placeholder="Name">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                  
+                                </div>
+                                <textarea class="form-control mt-3" placeholder="Message" rows="10"></textarea>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary display-2 text-light mt-2">Comment</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- .post footer -->
+
+                </section>
+            <!-- .Post Content -->
+
+                 </main>
+    <!-- .Main Site -->
+
+   <!-- footer -->
+<footer id="footer">
+    <div class="container">
+        <div class="row mb-3">
+            <div class="col-3">
+                <h2 class="footer-title secondary-title">About Us</h2>
+
+                <div class="secondary-title text-secondary">
+                     <p class="mt-2 ">
+                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                         Deserunt quis voluptate alias illum modi tenetur, iste voluptatem illo. Accusantium, corrupti!
+                     </p>
+                     
+                     <address>
+                         <i class="fas fa-map-marker-alt text-primary"></i> 
+                          Main Street Mumbai, India
+                     </address>
+<br>
+                     <div class="phone">
+                         <i class="fas fa-mobile text-primary"></i> 
+                        4444-1111-5555
+                     </div>
+<br>
+                     <div class="email">
+                         <i class="fas fa-envelope text-primary"></i> 
+                         Bloggyy@gmail.com
+                     </div>
+
+                </div>
+            </div>
+                   <div class="col-3">
+                       <h2 class="footer-title secondary-title">Recent Post</h2>
+
+                       <div class="feature-post">
+                           <div class="flex-item">
+                               <article class="article">
+                                   <div class="d-flex">
+                                       <a href="#">
+                                           <img src="img/img1.jpeg"class="object-fit px-1" alt="">
+                                           <div class="px-1">
+                                               <a href="Blog1.html" class="text-title display-2 text-dark">
+                                                Style
+                                               </a>
+                                               <p class="secondary-title text-secondary display-3">
+                                                    <span><i class="far fa-clock text-primary"></i>Wed 02, 2020 </span>
+                                               </p>
+                                           </div>
+                                       </a>
+                                   </div>
+                               </article>
+                           </div>
+                           <div class="flex-item">
+                            <article class="article">
+                                <div class="d-flex">
+                                    <a href="#">
+                                        <img src="img/img3.jpeg"class="object-fit px-1" alt="">
+                                        <div class="px-1">
+                                            <a href="#" class="text-title display-2 text-dark">
+                                            Travel
+                                            </a>
+                                            <p class="secondary-title text-secondary display-3">
+                                                 <span><i class="far fa-clock text-primary"></i> Thu 05, 2021 </span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </article>
+                             </div>
+                             <div class="flex-item">
+                                <article class="article">
+                                    <div class="d-flex">
+                                        <a href="#">
+                                            <img src="img/img4.jpeg" class="object-fit px-1" alt="">
+                                            <div class="px-1">
+                                                <a href="Blog4.html" class="text-title display-2 text-dark">
+                                                            Learn
+                                                </a>
+                                                <p class="secondary-title text-secondary display-3">
+                                                     <span><i class="far fa-clock text-primary"></i>Wed 02, 2019 </span>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                       </div>
+                   </div>
+                   <div class="col-3">
+                        <h2 class="footer-title secondary-title">Tags</h2>
+
+                        <div class="tags">
+                            <div class="d-flex flex-wrap">
+                                <a href="Blog3.html" class="nav-link btn bg-light">Travel</a>
+                                <a href="Blog6.html" class="nav-link btn bg-light">Food</a>
+                                <a href="Blog1.html" class="nav-link btn bg-light">Style</a>
+                                <a href="#" class="nav-link btn bg-light">Lifestyle</a>
+                                <a href="#" class="nav-link btn bg-light">Techonogy</a>
+                               
+                            </div>
+                        </div>
+
+                        <h2 class="footer-title secondary-title mt-2">Connect</h2>
+
+                        <div class="tags social">
+                            <div class="d-flex flex-wrap">
+                                <a href="#" class="nav-link btn bg-light"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="nav-link btn bg-light"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="nav-link btn bg-light"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+
+                   </div>
+               </div>
+
+               <!-- copyrights  -->
+               <div class="copyrights">
+                   <p class="text-center text-secondary display-2">
+                        © 2021 <a href="#" class="text-primary">Aditi Jagdale</a> All rights reserved.
+                   </p>
+               </div>
+           </div>
+       </footer>
+    <!-- .footer -->
+<!-- masonry libray for horizontal grid -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous"></script>
+
+<!-- custom javascript main.js file -->
+<script src="main.js"></script>
+</body>
+</html>
